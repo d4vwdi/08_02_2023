@@ -1,0 +1,38 @@
+main {
+    margin: 2%;
+}
+/*Menu*/
+.nav{
+    background-color: #007bff;  
+}
+.menu{
+    list-style: none;
+    display: block;
+    justify-content:space-around;
+    background-color: #007bff;
+}
+
+.menu li{
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+.h2{
+    color: white;
+}
+
+.menu li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    color: black;
+    transition: 0.75s;
+    align-self: center;
+    }
